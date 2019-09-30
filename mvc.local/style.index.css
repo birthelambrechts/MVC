@@ -1,0 +1,36 @@
+ body {
+  font-family: Helvetica, Tahoma, Geneva, Verdana, sans-serif;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: black;
+  justify-content: left;
+  align-items: center;
+  display: flex;
+}        
+body::before{
+  content: '';
+  position: absolute;
+  top: -150px;
+  left: -150px;
+  height: 1000px;
+  width: 1000px;
+  background-color: grey;
+  transform: rotate(50deg);
+  box-shadow: 10px -1px 15px rgb(100, 100, 100);
+  z-index: -1;
+}
+
+.text-box{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 2% 15%;
+    align-items: center;
+}
+
+button{
+  background-color: rgba(250, 235, 215, 0);
+  border: solid black 1px;
+  height: 40px;
+  width: 100px;
+}

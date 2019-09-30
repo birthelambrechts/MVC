@@ -1,0 +1,8 @@
+
+
+class Routing{}
+URI => File *URL zonder startstukje*
+profile/edit/{3} => /views/profile/edit.php *verw nr vb id*
+$view = /views/profile/edit.php *in variable zetten*
+include(master.php) -> include($view) *includen zodat ze samen komen*
+htaccess *samenzetten*
